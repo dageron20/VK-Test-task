@@ -1,0 +1,79 @@
+body {
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form {
+    background-color: white;
+    border: 1px solid black;
+    width: 70%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.section {
+    margin: 10px;
+    border-bottom: 0.1px solid grey;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.section div {
+    margin-bottom: 15px;
+}
+
+.type-checkbox {
+    margin-bottom: 5px;
+}
+
+.section:last-child {
+    border-bottom: none;
+}
+
+.infoClass {
+    display: block;
+    float: left;
+    width: 155px;
+}
+
+.dates {
+    display: block; 
+    margin-top: 5px;
+}
+
+select {
+    margin-right: 4px;
+}
+
+.section button {
+  appearance: none;
+  border: 0;
+  border-radius: 5px;
+  background: #4774ce;
+  color: #fff;
+  padding: 8px 16px;
+  font-size: 16px;
+}
+
+.section button:hover {
+    background: #5b92ff;
+}
+
+.section input {
+    line-height: 18px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 4px 6px;
+}
+
+.section select {
+    line-height: 18px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 4px 6px;
+}
+
+h3 {
+    margin-left: 10px;
+}
